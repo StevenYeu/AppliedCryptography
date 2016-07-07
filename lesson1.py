@@ -6,6 +6,7 @@ def convert_to_bits(n, pad):
         else:
             result = [1] + result
         n = n // 2
+        #
     while len(result) < pad:
         result = [0] + result
     return result
